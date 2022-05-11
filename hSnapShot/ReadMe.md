@@ -56,9 +56,9 @@ if (!Process32First(hSnapShot, &pe))
 
 	} while (Process32Next(hSnapShot, &pe));
 ````
-. operator is used to access the attributes which are present in the PROCESSENTRY32
-6 is used for blank spaces 
-u is used for printing the unsigned as as unsigned decimal number
+. operator is used to access the attributes which are present in the PROCESSENTRY32 <br>
+6 is used for blank spaces <br>
+u is used for printing the unsigned as as unsigned decimal number <br>
 ````C
 	CloseHandle(hSnapShot); 
 ````
